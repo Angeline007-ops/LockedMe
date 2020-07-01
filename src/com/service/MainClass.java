@@ -29,7 +29,7 @@ public class MainClass extends DisplayInfo{
 					LockedMe();
 				}
 				else if(c =='N'||c =='n'){
-	                System.exit(0);
+	                        System.exit(0);
 				}
 			    break;	
 		case 2:			
