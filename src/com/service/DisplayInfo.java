@@ -31,9 +31,9 @@ public class DisplayInfo {
 	        System.out.println("------The sorted list ------");
 	        for(final File f1 : fileList)
 	        {	        	
-	        	System.out.println(f1);
-	        	System.out.println("\n");
+	        	System.out.println(f1);	        	
 	        }
+	        System.out.println("\n");
 	 }
 	 //Add a file into directory
 	 public void addFile() throws IOException

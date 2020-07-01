@@ -21,7 +21,7 @@ public class MainClass extends DisplayInfo{
 		switch(number)
 		{
 		case 1:			
-				new MainClass().StartCasting();
+				new MainClass().startCasting();
 				System.out.println("Do you want to continue ? y/n\n");
 				c = s.next().charAt(0);
 				if(c == 'Y'||c=='y')
@@ -37,7 +37,7 @@ public class MainClass extends DisplayInfo{
 				int var = s.nextInt();
 				if(var == 1)
 				{
-					new MainClass().AddFile();
+					new MainClass().addFile();
 					System.out.println("Do you want to continue ? y/n");
 					c = s.next().charAt(0);
 					if(c == 'Y'||c=='y')
@@ -50,7 +50,7 @@ public class MainClass extends DisplayInfo{
 				}
 				else if(var == 2)
 				{
-					new MainClass().DeleteFile();
+					new MainClass().deleteFile();
 					System.out.println("Do you want to continue ? y/n");
 					System.out.println("Do you want to continue ? y/n\n");
 					c = s.next().charAt(0);
@@ -70,9 +70,8 @@ public class MainClass extends DisplayInfo{
 				}
 				else if(var == 3)
 				{
-					new MainClass().Filesearch();
+					new MainClass().fileSearch();
 					System.out.println("Do you want to continue ? y/n");
-					System.out.println("Do you want to continue ? y/n\n");
 					c = s.next().charAt(0);
 					if(c == 'Y'||c=='y')
 					{
