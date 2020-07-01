@@ -28,14 +28,9 @@ public class MainClass extends DisplayInfo{
 				{
 					LockedMe();
 				}
-<<<<<<< HEAD
 				else if(c =='N'||c =='n')
 				{
 	                System.exit(0);
-=======
-				else if(c =='N'||c =='n'){
-	                        System.exit(0);
->>>>>>> 6886bcbd7457a5913c4ff0f17ba4dc4781424eae
 				}
 				else
 				{
@@ -58,21 +53,14 @@ public class MainClass extends DisplayInfo{
 					}
 					else if(c =='N'||c =='n')
 					{
-<<<<<<< HEAD
 		                System.exit(0);
-=======
-		                        System.exit(0);
->>>>>>> 6886bcbd7457a5913c4ff0f17ba4dc4781424eae
 					}
 					else
 					{
 						System.out.println("Invalid response");
 						LockedMe();
 					}
-<<<<<<< HEAD
 
-=======
->>>>>>> 6886bcbd7457a5913c4ff0f17ba4dc4781424eae
 				}
 				else if(var == 2)
 				{
@@ -85,8 +73,8 @@ public class MainClass extends DisplayInfo{
 					}
 					else if(c =='N'||c =='n')
 					{
-		                        System.exit(0);
-		                        }
+		                System.exit(0);
+		            }
 					else
 					{
 						System.out.println("Invalid response");
@@ -104,24 +92,14 @@ public class MainClass extends DisplayInfo{
 					}
 					else if(c =='N'||c =='n')
 					{
-<<<<<<< HEAD
 		                System.exit(0);
-=======
-		                        System.exit(0);
->>>>>>> 6886bcbd7457a5913c4ff0f17ba4dc4781424eae
 					}
 					else
 					{
 						System.out.println("Invalid response");
 						LockedMe();
-<<<<<<< HEAD
 					}				    
-			    }
-=======
-					}
-				    
-				}
->>>>>>> 6886bcbd7457a5913c4ff0f17ba4dc4781424eae
+			}
 				else if(var == 4)
 				{
 				LockedMe();
