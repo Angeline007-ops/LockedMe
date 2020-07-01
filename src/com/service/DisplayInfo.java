@@ -39,7 +39,7 @@ public class DisplayInfo {
 	 public void addFile() throws IOException
 	 {
 		boolean flag=true;
-		 System.out.println("Enter the file name to be addedd");
+		 System.out.println("Enter the file name to be added");
 		 String fileName = s1.nextLine();
 		 try
 		 {
