@@ -52,7 +52,6 @@ public class MainClass extends DisplayInfo{
 				{
 					new MainClass().deleteFile();
 					System.out.println("Do you want to continue ? y/n");
-					System.out.println("Do you want to continue ? y/n\n");
 					c = s.next().charAt(0);
 					if(c == 'Y'||c=='y')
 					{
