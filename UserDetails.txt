@@ -1,0 +1,67 @@
+Nick/Pad/low/public
+John/Latch/moderate/secured
+June/Pattern/Low/private
+
+
+ 
+	 
+	 
+	 
+	 
+	 public void SearchFile() throws NullPointerException
+	{
+		 System.out.println("Enther file you want to search in C:/LockedMe");
+		 String name1 = s1.nextLine();
+		 File fileSearch = new File("C://LockedMe//"+name1);	
+		FilenameFilter searchFilter = new FilenameFilter() {			
+			@Override
+			public boolean accept(File fileSearch, String name1) {
+				return name1.startsWith(name1);	
+			    }
+           };
+		String[] searchFile = fileSearch.list(searchFilter);
+		Object ob = name1.toString();
+		
+		if(searchFilter.toString() != null){				
+			System.out.println("The file is present in the directory");
+			System.out.println("------The list of files are------");
+			for(String f : searchFile){								
+				System.out.println(f);			
+			}
+			//System.out.println(ob);
+		}else{
+			System.out.println("File doesnt exixts in directory");
+		}
+	}
+}
+				
+	
+	public  void searchFiles() {
+		 System.out.println("Enter the file you want to search from directory");
+		 String searchFile = s1.nextLine();		         
+	    	 File f2 = new File(searchFile);
+    	 File f3 = new File("C://LockedMe//"+f2);
+	    	 File[] flist = f3.listFiles();	    	 
+	    	 	if(f3 != null){
+	    	 		//for (String: flist){
+	    	 			//(o != null){
+	    	 			//	System.//out.println(o.toString()+f3
+	    	 						//etParentFile());
+	    	 			}
+	    	 	}
+	    	
+	
+	 
+	  public void getFiles(){
+		System.out.println("Enter the file to be searched");
+		String name = s1.next();		
+		String directory = "C://LockedMe//";
+		new DisplayInfo().searchFiles();
+		//File[] list = fout.listFiles();
+				//System.out.println("hi");
+				//System.out.println("The Searched file is in "+f31.getParentFile());
+				//displayFiles();
+				//System.out.println(f31.getParentFile());
+				//if(fout != null){
+					//for(File fob : list){
+	 }
