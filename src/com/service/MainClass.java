@@ -28,9 +28,16 @@ public class MainClass extends DisplayInfo{
 				{
 					LockedMe();
 				}
-				else if(c =='N'||c =='n'){
+				else if(c =='N'||c =='n')
+				{
 	                System.exit(0);
 				}
+				else
+				{
+					System.out.println("Invalid response");
+					LockedMe();
+				}
+
 			    break;	
 		case 2:			
 				System.out.println("1.Add a file into the directory\n2.Delete a file from the directory\n3.Search file in directory\n4.Back");	
@@ -44,9 +51,16 @@ public class MainClass extends DisplayInfo{
 					{
 						LockedMe();
 					}
-					else if(c =='N'||c =='n'){
+					else if(c =='N'||c =='n')
+					{
 		                System.exit(0);
-					}	
+					}
+					else
+					{
+						System.out.println("Invalid response");
+						LockedMe();
+					}
+
 				}
 				else if(var == 2)
 				{
@@ -79,9 +93,13 @@ public class MainClass extends DisplayInfo{
 					else if(c =='N'||c =='n')
 					{
 		                System.exit(0);
-					}			
-				    
-				}
+					}
+					else
+					{
+						System.out.println("Invalid response");
+						LockedMe();
+					}				    
+			    }
 				else if(var == 4)
 				{
 				LockedMe();

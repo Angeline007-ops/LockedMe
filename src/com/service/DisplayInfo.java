@@ -75,7 +75,7 @@ public class DisplayInfo {
 				}
 		 }		
 	}
-	 
+	 //To delete files in the directory
 	 public void deleteFile(){
 		 displayFiles();
 		 System.out.println("Enter the file you want to delete from directory");
@@ -96,37 +96,7 @@ public class DisplayInfo {
 		 } 	 
 	}
 	 
-	@SuppressWarnings("null")
-	public void FileSearch(){
-		System.out.println("Ether the file to search");
-		String fname = s1.nextLine();
-		File dir = new File("C://LockedMe//" + fname);
-		FilenameFilter filter = new FilenameFilter() 
-		{
-			@Override
-			public boolean accept(File dir, String fname) {
-					return fname.equalsIgnoreCase(fname);
-			}
-		};
-		try
-		{		
-		String[] string = dir.list(filter);
-		if(dir != null)
-		{
-			System.out.println("The file is located in "+ dir.getAbsolutePath());
-		}
-		}catch(NullPointerException e){
-		}
-		finally
-		{
-			String[] string = dir.list(filter);		
-			for(int i=0;i<string.length;i++)
-			{
-				String Filename = string[i];
-				System.out.println(Filename);
-			}	
-	    }	
-    } 
+	
 	
 	//Function to check the existence of the file
 	public boolean exists(File dir, String filename)
@@ -138,6 +108,7 @@ public class DisplayInfo {
 	    return false;
 	}
 	
+	//To search the file in the directory
 	public void fileSearch()
 	{
 		System.out.println("Enter the file to search (case sensitive)");
